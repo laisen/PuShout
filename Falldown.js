@@ -1,6 +1,3 @@
-
-
-11111
 #pragma strict
 var Speed = 0.5;
 function Start () {
