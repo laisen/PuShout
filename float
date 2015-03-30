@@ -1,0 +1,14 @@
+#pragma strict
+var speed = 0.5;
+var target : Transform;
+
+
+function Start () {
+
+}
+
+function Update () {
+	if (this.transform.position.y < target.transform.position.y){
+			this.GetComponent.<Rigidbody>().AddForce (Vector3.up*30);			
+	}
+}
